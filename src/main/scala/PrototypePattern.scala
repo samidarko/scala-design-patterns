@@ -8,8 +8,32 @@
   */
 object PrototypePattern {
 
+  trait Animal extends Cloneable {
+    def makeCopy : Animal
+  }
+
+  class Sheep extends Animal {
+    println("Sheep is made")
+    override def makeCopy: Animal = {
+      println("Sheep is being made")
+      super.clone().asInstanceOf[Sheep]
+    }
+    override def toString: String = "Dolly is my Hero, Baaaa"
+  }
+
+  class CloneFactory {
+    def getClone(animal: Animal) : Animal = animal.makeCopy
+  }
 
   def main(args: Array[String]): Unit = {
+    val cloneFactory : CloneFactory = new CloneFactory
+    val sally: Sheep = new Sheep
+    val clone : Sheep = cloneFactory.getClone(sally).asInstanceOf[Sheep]
+
+    println(sally)
+    println(clone)
+    println(s"Sally Hashcode ${sally.hashCode()}")
+    println(s"Clone Hashcode ${clone.hashCode()}")
 
   }
 

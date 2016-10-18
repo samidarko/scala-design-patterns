@@ -9,18 +9,18 @@ All the classes and traits are in single file by Pattern
 
 ## Creational
 
- * Factory
- * Abstract Factory
- * Builder
- * Prototype
- * Singleton
+ * [Factory](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/FactoryPattern.scala)
+ * [Abstract Factory](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/AbstractFactoryPattern.scala)
+ * [Builder](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/BuilderPattern.scala)
+ * [Prototype](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/PrototypePattern.scala)
+ * [Singleton](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/SingletonPattern.scala)
 
 ## Structural
 
 ## Behavioral
 
- * Observer
- * Strategy
+ * [Observer](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/ObserverPattern.scala)
+ * [Strategy](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/StrategyPattern.scala)
 
 
 

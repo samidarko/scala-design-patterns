@@ -7,7 +7,7 @@
   * * Can hide complicated / secret code from the user
   * * Negative: Increased number of Objects / Classes
   */
-object StrategyPattern extends App {
+object StrategyPattern {
 
   trait Fly {
     def fly: String
@@ -40,12 +40,16 @@ object StrategyPattern extends App {
   class Bird(name: String, flyingType : Fly) extends Animal(name, flyingType) {
   }
 
-  val dog = new Dog("doggy", new CanNotFly)
-  val bird = new Dog("birdy", new FlyWithWings)
+  def main(args: Array[String]): Unit = {
 
-  println("dog " ++ dog.tryToFly)
-  println("bird " ++ bird.tryToFly)
-  dog.setFlyingAbility(new FlyWithEngine)
-  println("dog " ++ dog.tryToFly)
+    val dog = new Dog("doggy", new CanNotFly)
+    val bird = new Dog("birdy", new FlyWithWings)
+
+    println("dog " ++ dog.tryToFly)
+    println("bird " ++ bird.tryToFly)
+    dog.setFlyingAbility(new FlyWithEngine)
+    println("dog " ++ dog.tryToFly)
+  }
+
 
 }

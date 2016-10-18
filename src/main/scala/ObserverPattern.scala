@@ -7,7 +7,7 @@
   * * Positive: loose coupling => the Subject doesn't need to know anything about the Observers
   * * Negative: The Subject may send updates that don't matter to the Observer
   */
-object ObserverPattern extends App {
+object ObserverPattern {
 
   trait Observer {
     def update(ibmPrice: Double, aaplPrice: Double, googPrice: Double): Unit
@@ -83,19 +83,20 @@ object ObserverPattern extends App {
 
   }
 
+  def main(args: Array[String]): Unit = {
+    val stockGrabber: StockGrabber = new StockGrabber
 
-  // run the pattern from there
-  val stockGrabber: StockGrabber = new StockGrabber
+    val obs1 = new StockObserver(stockGrabber, 1)
+    new StockObserver(stockGrabber, 2)
+    new StockObserver(stockGrabber, 3)
 
-  val obs1 = new StockObserver(stockGrabber, 1)
-  val obs2 = new StockObserver(stockGrabber, 2)
-  val obs3 = new StockObserver(stockGrabber, 3)
+    stockGrabber.setIbmPrice(197.00)
+    stockGrabber.setAaplPrice(677.60)
+    stockGrabber.setGoogPrice(676.40)
 
-  stockGrabber.setIbmPrice(197.00)
-  stockGrabber.setAaplPrice(677.60)
-  stockGrabber.setGoogPrice(676.40)
+    stockGrabber.unRegister(obs1)
+    stockGrabber.setGoogPrice(656.40)
 
-  stockGrabber.unRegister(obs1)
-  stockGrabber.setGoogPrice(656.40)
+  }
 
 }

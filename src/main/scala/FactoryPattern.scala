@@ -8,7 +8,7 @@
   * * The class is chosen at run time
   * * To encapsulate object creation
   */
-object FactoryPattern extends App {
+object FactoryPattern {
 
   abstract class EnemyShip(var name : String, var damage : Double) {
     def getName = name
@@ -39,7 +39,9 @@ object FactoryPattern extends App {
     }
   }
 
-  val factory : EnemyShipFactory = new EnemyShipFactory
-  doStuffEnemy(factory.makeEnemyShip("U"))
+  def main(args: Array[String]): Unit = {
+    val factory : EnemyShipFactory = new EnemyShipFactory
+    doStuffEnemy(factory.makeEnemyShip("U"))
+  }
 
 }

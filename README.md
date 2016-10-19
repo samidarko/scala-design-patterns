@@ -23,6 +23,7 @@ All the classes and traits are in single file by Pattern
 
  * [Observer](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/ObserverPattern.scala)
  * [Strategy](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/StrategyPattern.scala)
+ * [Command](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/CommandPattern.scala)
 
 
 

@@ -17,6 +17,8 @@ All the classes and traits are in single file by Pattern
 
 ## Structural
 
+ * [Decorator](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/DecoratorPattern.scala)
+
 ## Behavioral
 
  * [Observer](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/ObserverPattern.scala)

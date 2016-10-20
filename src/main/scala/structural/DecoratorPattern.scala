@@ -1,3 +1,5 @@
+package structural
+
 /**
   * Created by samidarko on 10/19/16.
   * What is the Decorator Pattern

@@ -1,3 +1,5 @@
+package behavioral
+
 /**
   * Created by samidarko on 10/18/16.
   * When to use the Strategy Pattern
@@ -45,10 +47,10 @@ object StrategyPattern {
     val dog = new Dog("doggy", new CanNotFly)
     val bird = new Dog("birdy", new FlyWithWings)
 
-    println("dog " ++ dog.tryToFly)
-    println("bird " ++ bird.tryToFly)
+    println(s"dog ${dog.tryToFly}")
+    println(s"bird ${bird.tryToFly}")
     dog.setFlyingAbility(new FlyWithEngine)
-    println("dog " ++ dog.tryToFly)
+    println(s"dog ${dog.tryToFly}")
   }
 
 

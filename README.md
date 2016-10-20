@@ -9,23 +9,24 @@ All the classes and traits are in single file by Pattern
 
 ## Creational
 
- * [Factory](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/FactoryPattern.scala)
- * [Abstract Factory](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/AbstractFactoryPattern.scala)
- * [Builder](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/BuilderPattern.scala)
- * [Prototype](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/PrototypePattern.scala)
- * [Singleton](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/SingletonPattern.scala)
+ * [Abstract Factory](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/creational/AbstractFactoryPattern.scala)
+ * [Builder](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/creational/BuilderPattern.scala)
+ * [Factory](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/creational/FactoryPattern.scala)
+ * [Prototype](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/creational/PrototypePattern.scala)
+ * [Singleton](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/creational/SingletonPattern.scala)
 
 ## Structural
 
- * [Decorator](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/DecoratorPattern.scala)
- * [Adapter](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/AdapterPattern.scala)
- * [Facade](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/FacadePattern.scala)
+ * [Adapter](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/structural/AdapterPattern.scala)
+ * [Bridge](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/structural/BridgePattern.scala)
+ * [Decorator](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/structural/DecoratorPattern.scala)
+ * [Facade](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/structural/FacadePattern.scala)
 
 ## Behavioral
 
- * [Observer](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/ObserverPattern.scala)
- * [Strategy](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/StrategyPattern.scala)
- * [Command](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/CommandPattern.scala)
+ * [Command](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/CommandPattern.scala)
+ * [Observer](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/ObserverPattern.scala)
+ * [Strategy](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/StrategyPattern.scala)
 
 
 

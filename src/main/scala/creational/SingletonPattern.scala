@@ -1,3 +1,5 @@
+package creational
+
 /**
   * Created by samidarko on 10/18/16.
   * What is the Singleton Pattern

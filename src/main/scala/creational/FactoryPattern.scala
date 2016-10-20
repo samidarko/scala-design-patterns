@@ -1,3 +1,5 @@
+package creational
+
 /**
   * Created by samidarko on 10/18/16.
   * When to use the Factory Pattern
@@ -35,7 +37,7 @@ object FactoryPattern {
       case "U" => new UFOEnemyShip
       case "R" => new RocketEnemyShip
       case "B" => new BigUFOEnemyShip
-      case _ => throw new NoSuchElementException(s"no such a ship")
+      case _ => throw new NoSuchElementException(s"no such ship")
     }
   }
 

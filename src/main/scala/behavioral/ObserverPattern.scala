@@ -1,3 +1,5 @@
+package behavioral
+
 /**
   * Created by samidarko on 10/18/16.
   * When to use the Observer Pattern

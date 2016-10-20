@@ -1,8 +1,16 @@
 
-class Test(var a: Int) {
-  def setA(b: Int) = a = b
+class A(var a: Int) {
 }
 
-val t = new Test(1)
+class B(var b: Int) extends A(b) {
+  def increase() : Unit = {
+    a += 1
+    println(a)
+  }
+}
 
-//println(t.a)
+
+val b = new B(1)
+
+b.increase()
+

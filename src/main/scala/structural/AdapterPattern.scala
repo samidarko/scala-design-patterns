@@ -1,3 +1,5 @@
+package structural
+
 /**
   * Created by samidarko on 10/20/16.
   * What is the Adapter Pattern

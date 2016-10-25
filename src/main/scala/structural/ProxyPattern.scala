@@ -10,10 +10,10 @@ object ProxyPattern {
 
   // TODO State Pattern first
 
-  trait GetAtmData {
-    def getAtmData : ATMState
-    def getCashInAtm : Int
-  }
+//  trait GetAtmData {
+//    def getAtmData : ATMState
+//    def getCashInAtm : Int
+//  }
 
   def main(args: Array[String]): Unit = {
 

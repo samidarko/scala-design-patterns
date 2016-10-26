@@ -15,6 +15,7 @@ object ProxyPattern {
   class ConcreteImage(name: String) extends Image {
     println(s"Image $name loaded")
     override def display(): Unit = println(s"display $name")
+    def info() : Unit = println(s"Image name $name")
   }
 
   class ProxyImage(name: String) extends Image {

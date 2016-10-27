@@ -11,6 +11,7 @@ All the classes and traits are in single file by Pattern
 
  * [Chain Of Responsibility](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/ChainOfResponsibilityPattern.scala)
  * [Command](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/CommandPattern.scala)
+ * [Interpreter](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/InterpreterPattern.scala)
  * [Iterator](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/IteratorPattern.scala)
  * [Observer](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/ObserverPattern.scala)
  * [State](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/StatePattern.scala)

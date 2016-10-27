@@ -1,7 +1,8 @@
 package behavioral
-
+// TODO what is Command Pattern?
 /**
   * Created by samidarko on 10/19/16.
+  * What is the Command Pattern?
   */
 object CommandPattern {
 

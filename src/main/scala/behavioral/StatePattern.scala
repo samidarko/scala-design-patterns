@@ -2,7 +2,7 @@ package behavioral
 
 /**
   * Created by vincentdupont on 26/10/16.
-  * What is the State Pattern
+  * What is the State Pattern?
   * * Allows an object to alter its behavior when its internal state changes. The object will appear to change its class
   * * Context (Account) : Maintains an instance of ConcreteState subclass that defines the current state
   * * State : Defines an interface for encapsulating the behavior associated with a particular state of the Context

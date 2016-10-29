@@ -13,6 +13,7 @@ All the classes and traits are in single file by Pattern
  * [Command](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/CommandPattern.scala)
  * [Interpreter](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/InterpreterPattern.scala)
  * [Iterator](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/IteratorPattern.scala)
+ * [Mediator](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/MediatorPattern.scala)
  * [Memento](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/MementoPattern.scala)
  * [Observer](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/ObserverPattern.scala)
  * [State](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/StatePattern.scala)

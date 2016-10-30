@@ -19,6 +19,7 @@ All the classes and traits are in single file by Pattern
  * [State](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/StatePattern.scala)
  * [Strategy](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/StrategyPattern.scala)
  * [Template Method](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/TemplateMethodPattern.scala)
+ * [Visitor](https://github.com/samidarko/scala-design-patterns/blob/master/src/main/scala/behavioral/VisitorPattern.scala)
 
 ## Creational
 

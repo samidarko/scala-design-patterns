@@ -3,9 +3,7 @@
 
 I wanted to improve my OO skill in Scala
 
-I took inspiration from the very [good videos][1] of [Derek Banas][2]
-
-All the classes and traits are in single file by Pattern
+All the patterns are self-content, each in a Scala object, as I didn't want the classes split in in different files
 
 ## Behavioral
 
